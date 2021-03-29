@@ -32,7 +32,7 @@ var quizQuestions = [{
    {
     question: "What does WWW stand for?",
     choiceA: "Web World Workings",
-    choiceB: "World Wrestling Winners",
+    choiceB: "World Wrestling Wins",
     choiceC: "World Wide Web",
     choiceD: "Windy Welly Wombats",
     correctAnswer: "c"},
