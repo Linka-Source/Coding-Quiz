@@ -51,7 +51,7 @@ var quizQuestions = [{
 
 var finalQuestionIndex = quizQuestions.length;
 var currentQuestionIndex = 0;
-var timeLeft = 76;
+var timeLeft = 100;
 var timerInterval;
 var score = 0;
 var correct;
@@ -75,4 +75,21 @@ function startQuiz(){
     gameoverDiv.style.display = "none";
     startQuizDiv.style.display = "none";
     generateQuizQuestion();
+
+    //timer
+
+    timerInterval = setInterval(function() {
+        timeLeft--;
+        quizTimer.textContent = "Time left: " + timeLeft;  
+
+        if(timeLeft === 0) {
+          clearInterval(timerInterval);
+          showScore();
+        }
+
+      }, 1000);
+
+    quizBody.style.display = "block";
+
+}
 
