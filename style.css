@@ -33,7 +33,7 @@ input {
 button {
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #5e6df1;
+    background-color: #f74cbe;
     border-radius: 10px;
     border: 3px double #cccccc;
     color: #eeeeee;
@@ -48,3 +48,96 @@ button:hover {
     box-shadow: #4450bd 4px 3px 6px;
 }
 
+#startpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5a69f0;
+    color: #eeeeee;
+    font-size: x-large;
+    text-shadow: black .5px .5px;
+    text-align: center;
+}
+
+#quiz {
+    display: none;
+}
+
+#result {
+    display: none;
+}
+
+#gameover {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#highScore {
+    height: 1.5rem;
+    border: groove 2px;
+}
+
+#high-scorePage {
+    display: none;
+    width: 50%;
+    border: solid;
+    border-color: silver;
+    border-bottom-style: groove;
+    padding-bottom: .3rem;
+    background: lightsteelblue;
+}
+
+#highscore-header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom-style: outset;
+    margin-bottom: .5rem;
+    background-color: #f74cbe;
+    color: #eeeeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#highscoreContainer {
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#initials {
+    margin: .5rem;
+    height: 1.75rem;
+}
+
+#highscore-initials {
+    display: inline-block;
+    padding-left: 9.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#highscore-score {
+    float: right;
+    padding-right: 8.75rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#finalScore {
+    padding-bottom: 0.5rem;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#endGameBtns {
+    display: none;
+}
