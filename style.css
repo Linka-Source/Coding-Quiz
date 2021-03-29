@@ -1,0 +1,12 @@
+:root {
+    background-color: rgb(95, 53, 89);
+}
+
+
+p {
+    color: black;
+    text-shadow: whitesmoke 1px 1px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
