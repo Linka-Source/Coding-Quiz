@@ -1,11 +1,10 @@
 :root {
-    background-color: rgb(95, 53, 89);
+    background-color: rgb(221, 194, 217);
 }
 
 
 p {
     color: black;
-    text-shadow: whitesmoke 1px 1px;
     text-align: center;
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,7 +12,7 @@ p {
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: -.5rem;
+    margin-top: -8px;
 }
 
 input {
@@ -26,17 +25,18 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: auto;
     margin: 0 auto;
 }
 
 button {
     display: inline-block;
+    align-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f74cbe;
+    background-color: #b45d97;
     border-radius: 10px;
-    border: 3px double #cccccc;
-    color: #eeeeee;
+    border: 3px double #b45d97;
+    color: #520337;
     text-align: center;
     font-size: 15px;
     padding: 20px;
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    box-shadow: #4450bd 4px 3px 6px;
+    box-shadow: #f04dbf 4px 3px 6px;
 }
 
 #startpage {
@@ -56,7 +56,7 @@ button:hover {
 
 #timer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #5a69f0;
+    background-color: #bb8fb4;
     color: #eeeeee;
     font-size: x-large;
     text-shadow: black .5px .5px;
@@ -79,26 +79,24 @@ button:hover {
 }
 
 #highScore {
-    height: 1.5rem;
-    border: groove 2px;
+    height: 24px;
 }
 
 #high-scorePage {
     display: none;
     width: 50%;
     border: solid;
-    border-color: silver;
-    border-bottom-style: groove;
-    padding-bottom: .3rem;
-    background: lightsteelblue;
+    border-color: rgb(226, 197, 225);
+    padding-bottom: 20px;
+    background: rgb(226, 197, 225));
 }
 
 #highscore-header {
     display: flex;
     justify-content: space-around;
     border-bottom-style: outset;
-    margin-bottom: .5rem;
-    background-color: #f74cbe;
+    margin-bottom: 80;
+    background-color: #bb8fb4;
     color: #eeeeee;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -113,26 +111,26 @@ button:hover {
 }
 
 #initials {
-    margin: .5rem;
-    height: 1.75rem;
+    margin: 8px;
+    height: 28px;
 }
 
 #highscore-initials {
     display: inline-block;
-    padding-left: 9.5rem;
+    padding-left: 150px;
     font-family: sans-serif;
     font-weight: bold;
 }
 
 #highscore-score {
     float: right;
-    padding-right: 8.75rem;
+    padding-right: 140px;
     font-family: sans-serif;
     font-weight: bold;
 }
 
 #finalScore {
-    padding-bottom: 0.5rem;
+    padding-bottom: 8px;
     font-size: x-large;
     font-family: sans-serif;
     font-weight: bold;
